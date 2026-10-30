@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+.codex/
+config.toml
+
+# Logs and databases
+*.log
+*.sqlite
+*.sqlite-*
+*.db
+
+# Local backups
+*.bak
+*.bak.*
